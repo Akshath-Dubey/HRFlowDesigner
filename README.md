@@ -2,7 +2,7 @@
 
 A visual, interactive workflow builder for HR administrators to design and simulate internal processes.
 
-## 🚀 Features
+##  Features
 
 - **Drag-and-Drop Canvas**: Built with React Flow for high-performance visual graph editing.
 - **Custom Node Types**: 5 specialized HR-focused nodes (Start, Task, Approval, Automated, End).
@@ -11,7 +11,7 @@ A visual, interactive workflow builder for HR administrators to design and simul
 - **Workflow Simulator**: A sandbox panel that validates the graph structure and simulates execution via a mock API.
 - **Type-Safe Architecture**: Full TypeScript implementation for robust development.
 
-## 🏗️ Architecture
+##  Architecture
 
 ### 1. Folder Structure
 
@@ -35,7 +35,7 @@ The simulator implements basic graph theory validation:
 - **Connectivity**: Identifies orphaned nodes not connected to the main flow.
 - **Simulation**: Uses a mock time-delayed API to provide a realistic "execution" experience.
 
-## 🛠️ How to Use
+##  How to Use
 
 1. **Drag** components from the left sidebar onto the canvas.
 2. **Connect** nodes by dragging from a source (bottom point) to a target (top point).
@@ -43,7 +43,7 @@ The simulator implements basic graph theory validation:
 4. **Edit** titles, assignees, or automated actions.
 5. **Click "Run Simulator"** to test your designed workflow for structural integrity.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 // Final updates integrated - tour + git hook
 
@@ -51,3 +51,4 @@ The simulator implements basic graph theory validation:
 - **Undo/Redo**: Implementation of history patches in the Zustand store.
 - **Edge Logic**: Conditional branching based on task outcomes (e.g., "If Approved" -> Path A).
 - **Collaboration**: Real-time multi-user editing using WebSockets/Yjs.
+  
